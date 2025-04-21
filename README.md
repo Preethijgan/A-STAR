@@ -24,7 +24,7 @@ A* Search Algorithm
    
     d) for each successor
     
-        if successor is the goal, stop search
+          if successor is the goal, stop search
         
        else, compute both g and h for successor
           successor.g = q.g + distance between 
