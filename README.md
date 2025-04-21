@@ -6,7 +6,7 @@
 <H3>Algorithm:</H3>
 
 
-// A* Search Algorithm
+A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
@@ -22,9 +22,9 @@
        parents to q
    
     d) for each successor
-        i) if successor is the goal, stop search
+        * if successor is the goal, stop search
         
-        ii) else, compute both g and h for successor
+        * else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
           successor.h = distance from goal to 
@@ -35,11 +35,11 @@
           
           successor.f = successor.g + successor.h
 
-        iii) if a node with the same position as 
+        * if a node with the same position as 
             successor is in the OPEN list which has a 
            lower f than successor, skip this successor
 
-        iV) if a node with the same position as 
+        * if a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
@@ -197,7 +197,7 @@ D 1 <br>
 G 0 <br>
 <hr>
 
-<h2>Program</h2>h2
+<h2>Program</h2>
 
 ```
 from collections import defaultdict
