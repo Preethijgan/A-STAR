@@ -23,6 +23,7 @@ A* Search Algorithm
        parents to q
    
     d) for each successor:
+    
         - if successor is the goal, stop search
         
         - else, compute both g and h for successor
