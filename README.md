@@ -6,14 +6,14 @@
 <H3>Algorithm:</H3>
 
 
-A* Search Algorithm
+```
+// A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
     list (you can leave its f at zero)
 
-3.  while the open list is not empty:
-   
+3.  while the open list is not empty
     a) find the node with the least f on 
        the open list, call it "q"
 
@@ -23,26 +23,24 @@ A* Search Algorithm
        parents to q
    
     d) for each successor
-    
-          if successor is the goal, stop search
+        i) if successor is the goal, stop search
         
-       else, compute both g and h for successor
-
-    successor.g = q.g + distance between 
-
-                 successor and q
+        ii) else, compute both g and h for successor
+          successor.g = q.g + distance between 
+                              successor and q
           successor.h = distance from goal to 
-          successor (This can be done using many
-   ways, we will discuss three heuristics-
-   Manhattan, Diagonal and Euclidean
-   Heuristics)
+          successor (This can be done using many 
+          ways, we will discuss three heuristics- 
+          Manhattan, Diagonal and Euclidean 
+          Heuristics)
+          
           successor.f = successor.g + successor.h
 
-      if a node with the same position as 
+        iii) if a node with the same position as 
             successor is in the OPEN list which has a 
            lower f than successor, skip this successor
 
-      if a node with the same position as 
+        iV) if a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
@@ -50,6 +48,8 @@ A* Search Algorithm
   
     e) push q on the closed list
     end (while loop)
+
+```
 
 
 
