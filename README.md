@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/6d28309f-7f15-4f17-b651-a61343870ef3)<h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:       </h3>
-<h3>Register Number:           </h3>
+<h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
+<h3>Name: Preethi J   </h3>
+<h3>Register Number:  212223220080         </h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
